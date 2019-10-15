@@ -1,1 +1,1 @@
-web: gunicorn app.secret-santa:app
+web gunicorn secret-santa:app
