@@ -207,6 +207,28 @@
         </div>
         <p class="small-paragraph cc-copyright-footer">Sembatya© 2019</p>
     </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCszfPXUjgW5Tesi9KQcfPSUMGsXErA-84",
+    authDomain: "sembatya.firebaseapp.com",
+    databaseURL: "https://sembatya.firebaseio.com",
+    projectId: "sembatya",
+    storageBucket: "sembatya.appspot.com",
+    messagingSenderId: "130085388394",
+    appId: "1:130085388394:web:e10a0a173c412ae5b90a13",
+    measurementId: "G-W67XE62L33"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
     <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://uploads-ssl.webflow.com/5d7f5872a3db08da383bea6f/js/webflow.6abdcc2ef.js"
